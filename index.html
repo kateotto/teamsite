@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Meet our team </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="style.css">
+       <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+      
+     
+
+    </head>
+    <body>
+        <header>
+            <h1>Lorem ipsum</h1>
+            <h2> Aliquam et nisi lacus </h2>
+            <a href="#sec" target="_self"><button>PEEK US</button></a>
+        </header>
+
+            <div id="sec">
+                <div id="avatars">
+              <h1> Meet our team</h1>
+              <br/><br/>
+              <fieldset>
+                  <legend class="avatar-name">Kelly</legend>
+                  <div class="kelly-avatar"></div>
+                    <p>Meet my friend Kelly.</p>
+                    <q>Aliquam et nisi lacus. In viverra risus at dapibus consectetur. 
+                        Pellentesque ac sapien ultrices, feugiat nulla sit amet, mollis est. 
+                        Fusce id dictum nisi, quis porttitor nisl. 
+                        Nunc mi nibh, ornare et enim vitae, venenatis egestas lectus. 
+                        Aliquam fermentum orci ornare est viverra, in varius metus semper. 
+                        Quisque ornare efficitur lorem quis hendrerit. Etiam pharetra sed ante eu accumsan. 
+                        Integer viverra pulvinar est quis commodo. Curabitur vitae mollis lorem. 
+                        In a neque quis enim hendrerit finibus a non enim. 
+                        Vivamus vitae elit pellentesque, dignissim risus eu, sagittis urna. 
+                        Nunc sodales massa ligula, et consectetur justo tempus non. 
+                        Nullam quis neque sit amet risus lobortis ultricies non in sem. 
+                    </q>
+              </fieldset>
+              <br/><br/>
+              <fieldset>
+                    <legend class="avatar-name">Ben</legend>
+                    <div class="ben-avatar"></div>
+                      <p>Say hello to Ben!</p>
+                      <q>Etiam at libero ligula. Curabitur non orci sed tellus interdum dignissim rhoncus ac enim.
+                         Aliquam imperdiet felis orci, sed porta augue malesuada in. 
+                         Donec posuere ante pharetra, maximus augue ac, dictum eros. Donec quis ipsum nulla. 
+                         Nam ut mauris sit amet quam blandit elementum sit amet euismod augue. 
+                          Aliquam aliquet orci quis arcu ultricies, eu sagittis lectus auctor.
+                      </q>
+                </fieldset>
+                <br/><br/>
+                <br/><br/>
+              <div id="contact-form">
+              <p>Name</p>  <input type="text" class"person-name">
+             <br/>
+              <p>E-mail</p> <input type="text"class="person-mail">
+              <br/>
+              <input type="submit" class="submit" value="Send!">
+              <br/>
+
+              </div>
+                <div class="tear" onclick="displayForms()" >
+                    <p>Keep in touch!</p>
+                        
+                </div>
+                <br/><br/>
+                <br/><br/>
+            </div>
+            </div>
+
+           
+           <footer>
+               <p>Designer: Katarzyna Otto</p>
+           </footer>
+
+           <script>
+               function displayForms() {
+              
+             var x =  document.getElementById("contact-form");
+
+             if(x.style.display === "none")
+             {
+                 x.style.display = "flex";
+             }
+             else
+             {
+                 x.style.display = "none";
+             }
+}
+           </script>
+    </body>
+</html>
